@@ -1,32 +1,33 @@
-# 🎵 Streaming Content Catalog Optimization (Advanced MySQL, Visualization)
+# 👥 Employee Attrition Risk Assessment (Python, MySQL, Tableau)
 
 ### 📘 Overview
-Analyzed a digital music streaming platform’s content catalog to identify high-quality but low-visibility songs that could be promoted for better engagement.
+Analyzed employee data to identify the root causes of attrition and recommend strategies to improve retention.
 
 ### 🧠 Objectives
-- Detect songs with strong user satisfaction (ratings, completion rate) but low visibility (low streams).  
-- Recommend promotion strategies for "hidden gems".  
-- Create an analytical framework for measuring promotional impact.
+- Understand which factors most influence employees leaving the organization.  
+- Predict attrition risk using statistical correlation and simple modeling.  
+- Visualize HR trends by department, salary, and work-life balance.
 
 ### 🧰 Tools Used
-- **MySQL (Advanced)** → Subqueries, CASE statements, and window functions for ranking song performance.  
-- **Power BI / Tableau** → Visualization of top-performing genres and engagement.  
-- **Python (optional)** → Data cleaning and validation.
+- **MySQL** → Data cleaning and storage (1,500+ employee records).  
+- **Python (Pandas, NumPy, Matplotlib)** → Data analysis and correlation study.  
+- **Tableau** → Dashboard showing department-wise attrition and HR metrics.
 
 ### 💡 Key Insights
-- Found a genre with *20% higher user rating* than average despite *lowest stream count*.  
-- Created a “Hidden Gems” index combining completion rate and rating score.  
-- Proposed an **A/B testing plan** to evaluate promotional uplift.
+- *Work-Life Balance* (-0.25 correlation) and *Job Satisfaction* (-0.24) were the strongest factors influencing attrition.  
+- *Salary* had minimal impact on attrition compared to lifestyle balance.  
+- HR dashboards enabled data-driven policy changes.
 
 ### 📊 Dashboard Preview
-![Streaming Dashboard](streaming_dashboard.png)
+![Attrition Dashboard](hr_attrition_dashboard.png)
 
 ### 📂 Files
-- `streaming_analysis.sql` — SQL queries for engagement scoring.  
-- `streaming_dashboard.png` — Visualization of key insights.  
+- `employee_attrition_analysis.ipynb` — Python analysis notebook.  
+- `employee_attrition.sql` — SQL data extraction queries.  
+- `hr_attrition_dashboard.png` — Tableau visualization.  
 - `README.md` — project summary.
 
 ---
 
-👨‍💻 **Author:** Mukesh Vislavath  # Employee-Attrition-Analysis
-Streaming Conent Catalog Optimization
+👨‍💻 **Author:** Mukesh Vislavath  
+🔗 [LinkedIn](https://linkedin.com/in/) | [Tableau Public](https://public.tableau.com/) | [Email](mailto:your@email.com)
